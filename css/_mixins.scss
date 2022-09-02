@@ -1,0 +1,33 @@
+@mixin defaultSection{
+    height: 100vh;
+    width: 100vw;
+}
+@mixin headerButton{
+    border-radius: 0;
+    background-color: $primary-blue;
+    padding: 10px 30px;
+    font-size: 1em;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+@mixin readMoreButton{
+    border-radius: 0;
+    background-color: transparent;
+    padding: 10px 30px;
+    font-size: 1em;
+    outline: none;
+    border: 2px solid $primary-blue;
+    cursor: pointer;
+}
+
+@mixin resumeButton{
+    border-radius: 0;
+    background-color: $primary-blue;
+    padding: 10px 30px;
+    font-size: 1em;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
